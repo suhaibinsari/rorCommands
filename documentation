@@ -1,0 +1,11 @@
+ROR Commands
+~ to install ROR
+ 1. sudo apt-get install ruby-full
+ 2. sudo snap install ruby --classic
+ 
+~ We have several channels per Ruby minor series. For instance, the following commands switch to Ruby 2.3:
+ 1.sudo snap switch ruby --channel=2.3/stable
+ 2. sudo snap refresh
+
+~ to check version of ROR
+ 1. ruby -v
